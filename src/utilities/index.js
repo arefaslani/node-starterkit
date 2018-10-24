@@ -1,1 +1,1 @@
-export const sayHello = async name => `Hello ${name}!`;
+export default async name => `Hello ${name}!`;
