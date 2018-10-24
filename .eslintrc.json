@@ -1,4 +1,9 @@
 {
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
   "extends": [
     "airbnb-base",
     "plugin:prettier/recommended"
