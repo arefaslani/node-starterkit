@@ -1,0 +1,8 @@
+{
+  "name": "your-application-or-library-name",
+  "version": "1.0.0",
+  "description": "Your application or library description",
+  "main": "index.js",
+  "author": "Your Name Here",
+  "license": "MIT"
+}
