@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "babel-node src/",
     "build": "babel src --out-dir dist --copy-files",
-    "start": "node dist/"
+    "start": "node dist/",
+    "test": "mocha --file spec/bootstrap spec"
   },
   "lint-staged": {
     "src/**/*.js": [
@@ -27,6 +28,7 @@
     "@babel/node": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-plugin-module-resolver": "^4.0.0",
+    "chai": "^4.2.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -35,6 +37,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.0",
     "lint-staged": "^10.2.0",
+    "mocha": "^8.0.1",
     "prettier": "^2.0.0"
   }
 }

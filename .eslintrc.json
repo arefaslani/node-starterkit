@@ -4,6 +4,14 @@
       "babel-module": {}
     }
   },
+  "env": {
+    "mocha": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "expect": true
+  },
   "extends": [
     "airbnb-base",
     "plugin:prettier/recommended"
